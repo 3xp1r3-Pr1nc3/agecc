@@ -1,0 +1,13 @@
+print("                  [~] Age Calculator [~] ")
+print("                        [~] BY [~]")
+print("                   [=] 3xp1r3 Pr1nc3 [=]")
+print("               [=] Greetz: Crypt3d G1rL [=]")
+import datetime
+year=input("Your Birth Year: ")
+month=input("Your Birth Month: ")
+day=input("Your Birth Date: ")
+time = datetime.datetime.now()
+age=time.year-int(year)
+age_one=time.month-int(month)
+age_two=time.day-int(day)
+print("Your age is now "+str(age)+" years "+str(age_one)+" months "+str(age_two)+" days")
